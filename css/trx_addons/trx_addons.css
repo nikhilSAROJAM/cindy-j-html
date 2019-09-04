@@ -330,7 +330,7 @@ aside.widget_bg_image li a {
 .trx_addons_columns_wrap {
     margin-left: 0px;
     /* -15px; */
-    
+
     margin-right: -30px;
     /* -15px; */
 }
@@ -339,17 +339,17 @@ aside.widget_bg_image li a {
     /* float:left;*/
     /* New way:inline blocks */
     /* Warning:remove spaces between column's tags:Right:Wrong:<div class="trx_addons_columns_wrap"><div class="trx_addons_column-1_2"><div class="columns_wrap"><div class="trx_addons_column-1_2">... ... </div><div class="trx_addons_column-1_2"></div><div class="trx_addons_column-1_2">... ... </div></div></div></div>*/
-    
+
     display: inline-block;
     vertical-align: top;
     position: relative;
     min-height: 1px;
     padding-left: 0px;
     /* 15px; */
-    
+
     padding-right: 30px;
     /* 15px; */
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box
@@ -621,7 +621,7 @@ aside.widget_bg_image li a {
         /*20px;*/
     }
     /* Columns relayout (max 2 columns in the row) */
-    
+
     .trx_addons_columns_wrap:not(.columns_fluid)>[class*="trx_addons_column-"] {
         width: 50%
     }
@@ -638,14 +638,14 @@ aside.widget_bg_image li a {
     .trx_addons_columns_wrap:not(.columns_fluid)>.trx_addons_column-11_11,
     .trx_addons_columns_wrap:not(.columns_fluid)>.trx_addons_column-12_12,
     /*	.trx_addons_columns_wrap:not(.columns_fluid)>.trx_addons_column-1_3:nth-child(3n),*/
-    
+
     .trx_addons_columns_wrap:not(.columns_fluid)>.trx_addons_column-2_3,
     /*	.trx_addons_columns_wrap:not(.columns_fluid)>.trx_addons_column-1_3.after_span_2,*/
-    
+
     .trx_addons_columns_wrap:not(.columns_fluid)>.trx_addons_column-3_4,
     /*	.trx_addons_columns_wrap:not(.columns_fluid)>.trx_addons_column-1_4.after_span_3,*/
     /*	.trx_addons_columns_wrap:not(.columns_fluid)>.trx_addons_column-1_5:nth-child(5n),*/
-    
+
     .trx_addons_columns_wrap:not(.columns_fluid)>.trx_addons_column-2_5,
     .trx_addons_columns_wrap:not(.columns_fluid)>.trx_addons_column-3_5,
     .trx_addons_columns_wrap:not(.columns_fluid)>.trx_addons_column-4_5,
@@ -700,7 +700,7 @@ aside.widget_bg_image li a {
         /*10px;*/
     }
     /* trx_addons_columns relayout (no trx_addons_columns) */
-    
+
     .trx_addons_columns_wrap:not(.columns_fluid)>[class*="trx_addons_column-"] {
         width: 100%
     }
@@ -1048,7 +1048,7 @@ body.vcard-3-4 .trx_addons_hover_content {
     -ms-transform: translate(50px, 50px);
     transform: translate(50px, 50px);
     /*	border-bottom:1px solid rgba(0,0,0,0.3);*/
-    
+
     background-color: transparent;
     margin: 0
 }
@@ -1102,7 +1102,7 @@ body.vcard-3-4 .trx_addons_hover_content {
     -ms-transform: translateY(30px) scale(0.1, 0.1);
     transform: translateY(30px) scale(0.1, 0.1);
     /*	border-bottom:1px solid rgba(0,0,0,0.3);*/
-    
+
     background-color: transparent;
     margin: 0
 }
@@ -2608,7 +2608,7 @@ aside .sc_recent_news .post_item.post_accented_on {
     content: ' ';
     padding-top: 100%;
     /* Hack:vertical value as 100% equals width */
-    
+
     display: inline-block;
     vertical-align: middle;
     width: 0;
@@ -2955,16 +2955,16 @@ a:hover {
 body.no_shadow .trx_addons_cv_header_letter,
 .trx_addons_cv_header_text,
 .trx_addons_cv_header_socials .social_item>a{
-    text-shadow: none !important; 
+    text-shadow: none !important;
 }
 body.no_shadow .trx_addons_cv_tint_dark .trx_addons_cv_header_letter,
 .trx_addons_cv_tint_dark .trx_addons_cv_header_text,
 .trx_addons_cv_tint_dark .trx_addons_cv_header_socials .social_item>a {
-    text-shadow: none !important; 
-} 
+    text-shadow: none !important;
+}
 body.no_shadow .trx_addons_cv_tint_dark .trx_addons_cv_header_socials .social_item>a:hover {
-    text-shadow: none !important; 
-} 
+    text-shadow: none !important;
+}
 .trx_addons_cv_tint_dark .trx_addons_cv_header_letter,
 .trx_addons_cv_tint_dark .trx_addons_cv_header_text,
 .trx_addons_cv_tint_dark .trx_addons_cv_header_socials .social_item>a {
@@ -3054,16 +3054,16 @@ body.no_shadow .trx_addons_cv_tint_dark .trx_addons_cv_header_socials .social_it
     content: '\e862'
 }
 .trx_addons_cv_navi_buttons .trx_addons_cv_navi_buttons_area .trx_addons_cv_navi_buttons_item[data-section="cv_portfolio"]:before {
-    content: '\e863'
+    content: '\e862'
 }
 .trx_addons_cv_navi_buttons .trx_addons_cv_navi_buttons_area .trx_addons_cv_navi_buttons_item[data-section="cv_testimonial"]:before {
-    content: '\e8b8'
+    content: '\e862'
 }
 .trx_addons_cv_navi_buttons .trx_addons_cv_navi_buttons_area .trx_addons_cv_navi_buttons_item[data-section="cv_certificate"]:before {
-    content: '\e833'
+    content: '\e862'
 }
 .trx_addons_cv_navi_buttons .trx_addons_cv_navi_buttons_area .trx_addons_cv_navi_buttons_item[data-section="cv_contacts"]:before {
-    content: '\e8bb'
+    content: '\e862'
 }
 .trx_addons_cv_section_title {
     position: relative;
@@ -3603,7 +3603,7 @@ body.no_shadow .trx_addons_cv_tint_dark .trx_addons_cv_header_socials .social_it
         font-size: 0.9167em
     }
     /* Grid relayout for CV (max 2 columns in the row) */
-    
+
     .trx_addons_cv .trx_addons_columns_wrap:not(.columns_fluid)>[class*="trx_addons_column-"] {
         width: 49%
     }
